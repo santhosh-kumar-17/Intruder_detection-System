@@ -82,8 +82,6 @@ class IntruderDetector:
 
     def cleanup(self):
         self.cap.release()
-        cv2.destroyAllWindows()git remote add origin https://github.com/username/repository-name.git
-
+        cv2.destroyAllWindows()
         pygame.mixer.quit()
         print("[INFO] Resources released and application closed.")
-f
